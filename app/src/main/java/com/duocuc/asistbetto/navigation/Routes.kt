@@ -1,4 +1,4 @@
-package com.duocuc.assistbetto.ui.navigation
+package com.duocuc.asistbetto.navigation
 
 object Routes {
     const val LOGIN = "login"

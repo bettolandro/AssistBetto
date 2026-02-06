@@ -1,4 +1,4 @@
-package com.duocuc.assistbetto.ui.theme
+package com.duocuc.asistbetto.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

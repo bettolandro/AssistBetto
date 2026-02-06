@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AssistBetto"
+rootProject.name = "AsistBetto"
 include(":app")
+ 

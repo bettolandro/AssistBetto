@@ -1,4 +1,4 @@
-package com.duocuc.assistbetto
+package com.duocuc.asistbetto
 
 import org.junit.Test
 

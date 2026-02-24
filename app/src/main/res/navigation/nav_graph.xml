@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.RegisterFragment"
+        android:label="Registro" />
+
+    <fragment
+        android:id="@+id/recoverPasswordFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.RecoverPasswordFragment"
+        android:label="Recuperar contraseña" />
+
+    <fragment
+        android:id="@+id/homeMenuFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.HomeMenuFragment"
+        android:label="Home Menú" />
+
+    <fragment
+        android:id="@+id/writeFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.WriteFragment"
+        android:label="Escribir" />
+
+    <fragment
+        android:id="@+id/speakFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.SpeakFragment"
+        android:label="Hablar" />
+
+    <fragment
+        android:id="@+id/searchDeviceFragment"
+        android:name="com.duocuc.asistbetto.ui.fragments.SearchDeviceFragment"
+        android:label="BuscarDispositivo" />
+</navigation>
